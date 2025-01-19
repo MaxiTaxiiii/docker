@@ -6,9 +6,9 @@ Verfasser: **Maksymilian Saferyjski 2CHIT**
 Datum: **15.01.2025**
 
 ## 1. Einführung
-Ich bin mir sicher, dass wir alle mit Windows oder macOS schon bekannt sind. Jedes Betriebssystem hat seine Vor- und Nachteile, aber das heutzutage am meistgenutzte Betriebssystem für Computer, die als Server fungieren, ist Linux. Linux ist open source, kostenlos und hat keine strengen Voraussetzungen, was Hardware betrifft. Nachteil jedoch ist, dass Programme die, in Windows oder Mac funktionieren, werden höchstwahrscheinlich nicht auf Linux funktionieren. Aufgrund dass Linux open source ist, gibt es verschiedene Distributions, die man nutzen kann. In dieser EK werden ich mich mit Ubuntu auseinandersetzen und ein nützlichen Home Server zusammenbastelln.
+Docker ist eine Plattform, die es ermöglicht, Software in sogenannten Containern zu verpacken und auszuführen. Ein Container ist eine isolierte Umgebung, die alles enthält, was eine Anwendung benötigt, um zu laufen: den Code, die Bibliotheken, die Abhängigkeiten und die Systemtools. Container können auf jedem System ausgeführt werden, das Docker unterstützt, unabhängig davon, ob es sich um einen Server, einen Desktop-PC oder eine virtuelle Maschine handelt.
 ## 2. Projektbeschreibung
-Es wurde ein Ubuntu Home Server realisiert, mit dem Samba, Home Assistant, Sonarr, PiVPN und Plex eingerichtet wurde. Dies wurde mit verschiedenen Mitteln erreicht, wie z.B Docker oder dem APT Manager.
+Es wurde ein Ghost Docker Container mithilfe von Docker Compose erstellt. 
 ## 3. Theorie
 Was ist Docker? Was sind Container? Was sind dessen Vorteile?
 
@@ -37,7 +37,7 @@ dabei sind diese Komponenten miteinander meist durch Fibre Channel verknüpft un
 Aufgrund einer Meshed-artigen Struktur, bietet ein SAN eine sehr hohe Ausfallsicherheit.
 
 * **NAS**:
-Ein NAS besteht aus mehreren Festplatten und fungiert als zentraler Datenspeicher in einem LAN, somit ist er ideal fürs gemeinsames Filesharing oder Ablegung von Dateien, bietet jedoch eine sehr geringe Ausfallsicherheit.
+Ein NAS ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet.
 
 Welche Speichermedien werden wahrscheinlich in Zukunft verwendet werden und wie funktionieren diese?
 * **Racetrack Speicher**:
@@ -46,8 +46,12 @@ Dieses Speichermedium speichert die Bits auf nebeneinander geordneten ferromagne
 Dieses Speichermedium ist eine DVD, die mit einem Protein überzogen wurde. Diese gibt bei Lichteinstrahlung eine Substanz ab, die als Energiespeicher genutzt werden kann. Somit wäre eine Kapazität von bis zu 50 TB möglich.
 * **Holographische/Mehrdimensionale optische Datenträger**:
 Dieses Speichermedium hat eine Ebene mehr als übliche DVD/CDs und können somit eine enorme Kapazität erreichen.
+
 Welche Backup Strategie verfolgst du im Moment?
+
 * Ich speichere alle meine wichtigen Dateien in der Cloud.
+
 Welche Daten verlierst du solltest du jetzt deinen Laptop verlieren?
+
 * Programme, Spiele und Lokal gespeicherten Daten.
 ## 4. Arbeitsschritte
