@@ -34,18 +34,16 @@ Wie funktioniert physikalisch die Arbeitsweise dieser Speichermedien? (Erkläre 
 Ein **SAN** fässt die einzelnen Laufwerke, unabhängig von Ort oder Betriebssystem, von Disk-Arrays zusammen und teilt sie in wenige große Speichergeräte, sodass ein großes Dateispeicher-Netzwerk entsteht und sie von jedem Server
 über das Speichernetz gemeinsam genutzt werden können. Der eigentliche Zugriff erfolgt auf Block-Level und wird durch SAN-Switche und Storage-Controller verwaltet,
 dabei sind diese Komponenten miteinander meist durch Fibre Channel verknüpft und somit ist eine sehr schnelle Übertragung möglich.
-Aufgrund einer Meshed-artigen Struktur, bietet ein SAN eine sehr hohe Ausfallsicherheit.
+Aufgrund einer Meshed-artigen Struktur bietet ein SAN eine sehr hohe Ausfallsicherheit.
 
 * **NAS**:
-Ein NAS ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet.
+Ein **NAS** ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet. Im Gegensatz zum SAN, das Block-Level-Storage nutzt, speichert ein NAS Daten auf Dateisystemebene. Dies bedeutet, dass Daten in Form von Dateien gespeichert werden, die auf einem Dateisystem wie EXT4, NTFS oder ZFS abgelegt sind. Um besseren Schutz zu gewährleisten, sind die Festplatten in einem NAS meist in einem RAID-Array untergebracht, das abhängig von der Konfiguration vermeidet, dass, wenn eine Festplatte ausfällt, nicht gleichzeitig alle ausfallen.
 
 Welche Speichermedien werden wahrscheinlich in Zukunft verwendet werden und wie funktionieren diese?
-* **Racetrack Speicher**:
-Dieses Speichermedium speichert die Bits auf nebeneinander geordneten ferromagnetischen Nanodrähten, dabei wäre der Raumbedarf bei diesen Nanodrähten so niedrig, dass eine bis zu 100 mal höhere Speicherdichte als heutige Flasch-Speicher möglich wäre.
-* **Protein-coated Disc**: 
-Dieses Speichermedium ist eine DVD, die mit einem Protein überzogen wurde. Diese gibt bei Lichteinstrahlung eine Substanz ab, die als Energiespeicher genutzt werden kann. Somit wäre eine Kapazität von bis zu 50 TB möglich.
-* **Holographische/Mehrdimensionale optische Datenträger**:
-Dieses Speichermedium hat eine Ebene mehr als übliche DVD/CDs und können somit eine enorme Kapazität erreichen.
+* **DNA Speicher**:
+DNA-Speicher speichert Daten in form von DNA-Molekülen. DNA-Speicher funktioniert, indem digitale Daten in binäre Form umgewandelt und in DNA-Sequenzen übersetzt werden, die dann im Labor synthetisiert werden. Um die Haltbarkeit der DNA zu erhöhen, wird sie in Glaspartikel eingeschlossen, was sie vor Umwelteinflüssen schützt und sie für etwa 1000 Jahre stabil hält. Ein Gramm DNA könnte theoretisch bis zu ein Exabyte an Daten speichern, was es zu einem extrem kompakten Medium für riesige Datenmengen macht.
+* **Quanten Speicher**: 
+Ein Quanten-Speicher nutzt Qubits, die im Gegensatz zu klassischen Bits nicht nur einen Zustand (0 oder 1) annehmen, sondern gleichzeitig beide Zustände in einer Überlagerung einnehmen können. Diese Überlagerung bedeutet, dass das Qubit eine Mischung aus „0“ und „1“ ist, wobei der Informationsgehalt durch das Verhältnis der beiden Zustände bestimmt wird (z. B. 20% „0“ und 80% „1“), somit können Berechnung parallel zueinander durchgeführt werden. Weil ein Qubit mehrere Zustände gleichzeitig darstellen kann, kann ein Qubit viel mehr Informationen speicher als ein klassiches Bit. Dadurch könnte die Speicherdichte von Quanten-Speichern erheblich höher sein, was die Speicherung großer Datenmengen effizienter machen könnte.
 
 Welche Backup Strategie verfolgst du im Moment?
 
