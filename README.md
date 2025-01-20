@@ -89,7 +89,18 @@ volumes:
 ```
 
 **Docker Compose Datei ausführen**
+
 ```docker compose up -d```
 
 **Auf das Ghost Webinterface zugreifen**
-```localhost:8080 in den Webbrowser eingeben```
+
+```localhost:8080``` in den Webbrowser eingeben
+
+Somit haben erfolgreich ein Docker Container mithilfe von Docker Compose erstellt!
+Diese kann man nun mit ```docker compose down``` beenden
+
+## 5. Zusammenfassung
+
+In diesem Projekt wurde die Erstellung und Verwaltung eines Ghost Docker Containers mithilfe von Docker Compose durchgeführt. Ziel war es, eine isolierte und einfach zu skalierende Umgebung für die Ghost-Blog-Plattform zu schaffen, die auf einem Docker-Container läuft und mit einer MySQL-Datenbank verbunden ist. Dies wurde durch eine gut strukturierte docker-compose.yml-Datei erreicht, die die Konfiguration der beiden Container festlegt.
+
+## 6. Quellen
