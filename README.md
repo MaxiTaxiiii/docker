@@ -32,10 +32,9 @@ Welche Speichermedien werden in modernen Rechenzentren verwendet? Und für welch
 Wie funktioniert physikalisch die Arbeitsweise dieser Speichermedien? (Erkläre Detailiert wie die Daten auf dem Medium gespeichert werden.)
 * **SAN**:
 Ein **SAN** ist ein Netzwerk, das Server mit Speichersystemen verbindet, um eine effiziente und flexible Verwaltung großer Datenmengen zu ermöglichen. 
-Er besteht meistens aus Fibre-Channel-Switch, einem oder mehreren Festplattensubsystemen und den Servern, die über sogenannte Host-Bus-Adapter, mit dem Fibre-Channel-Switch verbunden werden.
+Er besteht meistens aus einem Fibre-Channel-Switch, einem oder mehreren Disk-Arrays und den Servern, die über sogenannte Host-Bus-Adapter, mit dem Fibre-Channel-Switch verbunden werden.
 SANs nutzen blockbasierte Datenzugriffe und arbeiten typischerweise mit Protokollen wie Fibre Channel oder iSCSI. 
 Sie bieten hohe Performance (bis zu 16 Gbit/s) und ermöglichen eine zentrale Verwaltung von Speicherkapazitäten.
-
 
 * **NAS**:
 Ein **NAS** ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet. Im Gegensatz zum SAN, das Block-Level-Storage nutzt, speichert ein NAS Daten auf Dateisystemebene. Dies bedeutet, dass Daten in Form von Dateien gespeichert werden, die auf einem Dateisystem wie EXT4, NTFS oder ZFS abgelegt sind. Um besseren Schutz zu gewährleisten, sind die Festplatten in einem NAS meist in einem RAID-Array untergebracht, das abhängig von der Konfiguration vermeidet, dass, wenn eine Festplatte ausfällt, nicht gleichzeitig alle ausfallen.
