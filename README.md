@@ -96,11 +96,21 @@ volumes:
 
 ```localhost:8080``` in den Webbrowser eingeben
 
-Somit haben erfolgreich ein Docker Container mithilfe von Docker Compose erstellt!
-Diese kann man nun mit ```docker compose down``` beenden
+Somit haben wir erfolgreich ein Docker Container mithilfe von Docker Compose erstellt!
+Dieses kann man nun mit ```docker compose down``` beenden
 
 ## 5. Zusammenfassung
 
 In diesem Projekt wurde die Erstellung und Verwaltung eines Ghost Docker Containers mithilfe von Docker Compose durchgeführt. Ziel war es, eine isolierte und einfach zu skalierende Umgebung für die Ghost-Blog-Plattform zu schaffen, die auf einem Docker-Container läuft und mit einer MySQL-Datenbank verbunden ist. Dies wurde durch eine gut strukturierte docker-compose.yml-Datei erreicht, die die Konfiguration der beiden Container festlegt.
 
 ## 6. Quellen
+
+[1] wikipedia.org, "Storage Area Network". [online]. Available at https://de.wikipedia.org/wiki/Storage_Area_Network. [Accessed 15 January 2025]
+
+[2] wikipedia.org, "Network Attached Storage". [online]. Available at "https://de.wikipedia.org/wiki/Network_Attached_Storage". [Accessed 15 January 2025]
+
+[3] mpg.de, "Quanten-Speicher mit Langzeitgedächtnis". [online]. Available at "https://www.mpg.de/5838737/quanteninformation_quantenspeicher_raumtemperatur". [Accessed 15 January 2025]
+
+[4] uni-wuerzburg.de, "DNA-Chips als Speichermedien der Zukunft". [online]. Available at "https://www.uni-wuerzburg.de/aktuelles/pressemitteilungen/single/news/dna-chips/". [Accessed 15 January 2025]
+
+[5] hub.docker.com, "ghost". [online]. Available at "https://hub.docker.com/_/ghost/". [Accessed 15 January 2025]
