@@ -31,10 +31,11 @@ Welche Speichermedien werden in modernen Rechenzentren verwendet? Und für welch
 
 Wie funktioniert physikalisch die Arbeitsweise dieser Speichermedien? (Erkläre Detailiert wie die Daten auf dem Medium gespeichert werden.)
 * **SAN**:
-Ein **SAN** fässt die einzelnen Laufwerke, unabhängig von Ort oder Betriebssystem, von Disk-Arrays zusammen und teilt sie in wenige große Speichergeräte, sodass ein großes Dateispeicher-Netzwerk entsteht und sie von jedem Server
-über das Speichernetz gemeinsam genutzt werden können. Der eigentliche Zugriff erfolgt auf Block-Level und wird durch SAN-Switche und Storage-Controller verwaltet,
-dabei sind diese Komponenten miteinander meist durch Fibre Channel verknüpft und somit ist eine sehr schnelle Übertragung möglich.
-Aufgrund einer Meshed-artigen Struktur bietet ein SAN eine sehr hohe Ausfallsicherheit.
+Ein **SAN** ist ein Netzwerk, das Server mit Speichersystemen verbindet, um eine effiziente und flexible Verwaltung großer Datenmengen zu ermöglichen. 
+Er besteht meistens aus Fibre-Channel-Switch, einem oder mehreren Festplattensubsystemen und den Servern, die über sogenannte Host-Bus-Adapter, mit dem Fibre-Channel-Switch verbunden werden.
+SANs nutzen blockbasierte Datenzugriffe und arbeiten typischerweise mit Protokollen wie Fibre Channel oder iSCSI. 
+Sie bieten hohe Performance (bis zu 16 Gbit/s) und ermöglichen eine zentrale Verwaltung von Speicherkapazitäten.
+
 
 * **NAS**:
 Ein **NAS** ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet. Im Gegensatz zum SAN, das Block-Level-Storage nutzt, speichert ein NAS Daten auf Dateisystemebene. Dies bedeutet, dass Daten in Form von Dateien gespeichert werden, die auf einem Dateisystem wie EXT4, NTFS oder ZFS abgelegt sind. Um besseren Schutz zu gewährleisten, sind die Festplatten in einem NAS meist in einem RAID-Array untergebracht, das abhängig von der Konfiguration vermeidet, dass, wenn eine Festplatte ausfällt, nicht gleichzeitig alle ausfallen.
