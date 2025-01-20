@@ -12,7 +12,11 @@ Es wurde ein Ghost Docker Container mithilfe von Docker Compose erstellt.
 ## 3. Theorie
 Was ist Docker? Was sind Container? Was sind dessen Vorteile?
 
-Docker ist eine Virtualisierungssoftware, die Anwendungen in Container isoliert. Container sind Umgebungen für Anwendungen, die alles beinhalten, um das jeweilige Program in einem isolierten Bereich laufen zu lassen. Dies bringt mit sich einige Vorteile. Zuerst können Docker-Container ganz leicht installiert, gestartet und beendet werden. Zweitens kann man sie von Umgebung zu Umgebung ganz einfach verschieben. Zusätzlich hat Docker eine große Community, die stets neue Funktionen und Verbesserungen hinzufügt
+Docker ist eine Virtualisierungssoftware, die Anwendungen in Container isoliert. 
+Container sind Umgebungen für Anwendungen, die alles beinhalten, um das jeweilige Program in einem isolierten Bereich laufen zu lassen. 
+Dies bringt mit sich einige Vorteile. Zuerst können Docker-Container ganz leicht installiert, gestartet und beendet werden. 
+Zweitens kann man sie von Umgebung zu Umgebung ganz einfach verschieben. 
+Zusätzlich hat Docker eine große Community, die stets neue Funktionen und Verbesserungen hinzufügt.
 
 Vergleiche die Performance von verschiedenen Virtualisierungsumgebungen (z.B. VMWare, Virtualbox, Parallels und Docker.)
 
@@ -54,8 +58,8 @@ Ein Gramm DNA könnte theoretisch bis zu ein Exabyte an Daten speichern, was es 
 * **Quanten Speicher**: 
 Ein Quanten-Speicher nutzt Qubits, die im Gegensatz zu klassischen Bits nicht nur einen Zustand (0 oder 1) annehmen, sondern gleichzeitig beide Zustände in einer Überlagerung einnehmen können. 
 Diese Überlagerung bedeutet, dass das Qubit eine Mischung aus „0“ und „1“ ist, wobei der Informationsgehalt durch das Verhältnis der beiden Zustände bestimmt wird (z. B. 20% „0“ und 80% „1“), somit können Berechnung parallel zueinander durchgeführt werden.
- Weil ein Qubit mehrere Zustände gleichzeitig darstellen kann, kann ein Qubit viel mehr Informationen speicher als ein klassiches Bit. 
- Dadurch könnte die Speicherdichte von Quanten-Speichern erheblich höher sein, was die Speicherung großer Datenmengen effizienter machen könnte.
+Weil ein Qubit mehrere Zustände gleichzeitig darstellen kann, kann ein Qubit viel mehr Informationen speicher als ein klassiches Bit. 
+Dadurch könnte die Speicherdichte von Quanten-Speichern erheblich höher sein, was die Speicherung großer Datenmengen effizienter machen könnte.
 
 Welche Backup Strategie verfolgst du im Moment?
 
