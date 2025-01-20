@@ -53,3 +53,43 @@ Welche Daten verlierst du solltest du jetzt deinen Laptop verlieren?
 
 * Programme, Spiele und Lokal gespeicherten Daten.
 ## 4. Arbeitsschritte
+
+**Docker Desktop Installieren**
+https://www.docker.com/products/docker-desktop/
+
+**Docker Compose Datei erstellen**
+Die Datei docker-compose.yml nennen und folgenden Inhalt hinzufügen:
+```
+services:
+  ghost:
+    image: ghost:5-alpine
+    restart: always
+    ports:
+      - 8080:2368
+    environment:
+      database__client: mysql
+      database__connection__host: db
+      database__connection__user: root
+      database__connection__password: example
+      database__connection__database: ghost
+      url: http://localhost:8080
+    volumes:
+      - ghost:/var/lib/ghost/content
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    volumes:
+      - db:/var/lib/mysql
+volumes:
+  ghost:
+  db: 
+```
+
+**Docker Compose Datei ausführen**
+```docker compose up -d```
+
+**Auf das Ghost Webinterface zugreifen**
+```localhost:8080 in den Webbrowser eingeben```
