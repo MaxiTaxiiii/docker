@@ -37,13 +37,25 @@ SANs nutzen blockbasierte Datenzugriffe und arbeiten typischerweise mit Protokol
 Sie bieten hohe Performance (bis zu 16 Gbit/s) und ermöglichen eine zentrale Verwaltung von Speicherkapazitäten.
 
 * **NAS**:
-Ein **NAS** ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind. NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet. Im Gegensatz zum SAN, das Block-Level-Storage nutzt, speichert ein NAS Daten auf Dateisystemebene. Dies bedeutet, dass Daten in Form von Dateien gespeichert werden, die auf einem Dateisystem wie EXT4, NTFS oder ZFS abgelegt sind. Um besseren Schutz zu gewährleisten, sind die Festplatten in einem NAS meist in einem RAID-Array untergebracht, das abhängig von der Konfiguration vermeidet, dass, wenn eine Festplatte ausfällt, nicht gleichzeitig alle ausfallen.
+Ein **NAS** ist ein Speichersystem, das über ein Netzwerk, meist ein LAN, zugänglich ist. 
+Es besteht aus mehreren Festplatten, die entweder in einem Gehäuse oder auf mehreren Geräten untergebracht sind.
+NAS-Systeme werden häufig für das Filesharing und die zentrale Ablage von Daten verwendet. 
+Im Gegensatz zum SAN, das Block-Level-Storage nutzt, speichert ein NAS Daten auf Dateisystemebene. 
+Dies bedeutet, dass Daten in Form von Dateien gespeichert werden, die auf einem Dateisystem wie EXT4, NTFS oder ZFS abgelegt sind. 
+Um besseren Schutz zu gewährleisten, sind die Festplatten in einem NAS meist in einem RAID-Array untergebracht, das abhängig von der Konfiguration vermeidet, dass, wenn eine Festplatte ausfällt, nicht gleichzeitig alle ausfallen.
 
 Welche Speichermedien werden wahrscheinlich in Zukunft verwendet werden und wie funktionieren diese?
 * **DNA Speicher**:
-DNA-Speicher speichert Daten in form von DNA-Molekülen. DNA-Speicher funktioniert, indem digitale Daten in binäre Form umgewandelt und in DNA-Sequenzen übersetzt werden, die dann im Labor synthetisiert werden. Um die Haltbarkeit der DNA zu erhöhen, wird sie in Glaspartikel eingeschlossen, was sie vor Umwelteinflüssen schützt und sie für etwa 1000 Jahre stabil hält. Ein Gramm DNA könnte theoretisch bis zu ein Exabyte an Daten speichern, was es zu einem extrem kompakten Medium für riesige Datenmengen macht.
+DNA-Speicher speichert Daten in form von DNA-Molekülen. 
+DNA-Speicher funktioniert, indem digitale Daten in binäre Form umgewandelt und in DNA-Sequenzen übersetzt werden, die dann im Labor synthetisiert werden. 
+Um die Haltbarkeit der DNA zu erhöhen, wird sie in Glaspartikel eingeschlossen, was sie vor Umwelteinflüssen schützt und sie für etwa 1000 Jahre stabil hält. 
+Ein Gramm DNA könnte theoretisch bis zu ein Exabyte an Daten speichern, was es zu einem extrem kompakten Medium für riesige Datenmengen macht.
+
 * **Quanten Speicher**: 
-Ein Quanten-Speicher nutzt Qubits, die im Gegensatz zu klassischen Bits nicht nur einen Zustand (0 oder 1) annehmen, sondern gleichzeitig beide Zustände in einer Überlagerung einnehmen können. Diese Überlagerung bedeutet, dass das Qubit eine Mischung aus „0“ und „1“ ist, wobei der Informationsgehalt durch das Verhältnis der beiden Zustände bestimmt wird (z. B. 20% „0“ und 80% „1“), somit können Berechnung parallel zueinander durchgeführt werden. Weil ein Qubit mehrere Zustände gleichzeitig darstellen kann, kann ein Qubit viel mehr Informationen speicher als ein klassiches Bit. Dadurch könnte die Speicherdichte von Quanten-Speichern erheblich höher sein, was die Speicherung großer Datenmengen effizienter machen könnte.
+Ein Quanten-Speicher nutzt Qubits, die im Gegensatz zu klassischen Bits nicht nur einen Zustand (0 oder 1) annehmen, sondern gleichzeitig beide Zustände in einer Überlagerung einnehmen können. 
+Diese Überlagerung bedeutet, dass das Qubit eine Mischung aus „0“ und „1“ ist, wobei der Informationsgehalt durch das Verhältnis der beiden Zustände bestimmt wird (z. B. 20% „0“ und 80% „1“), somit können Berechnung parallel zueinander durchgeführt werden.
+ Weil ein Qubit mehrere Zustände gleichzeitig darstellen kann, kann ein Qubit viel mehr Informationen speicher als ein klassiches Bit. 
+ Dadurch könnte die Speicherdichte von Quanten-Speichern erheblich höher sein, was die Speicherung großer Datenmengen effizienter machen könnte.
 
 Welche Backup Strategie verfolgst du im Moment?
 
